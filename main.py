@@ -35,10 +35,6 @@ latest = {"editorVer": {
   }}
 
 
-if json == latest:
-  done = True
-  codename = "Ultra"
-  editorver = "Unity "+f+" "+json["editorVer"]["major"]+p+json["editorVer"]["minor"]+p+json["editorVer"]["ln"]+json["editorVer"]["patch"]+" "+"("+codename+" "+"0.0"+")"
 
 if not done:
   if json["editorVer"]["ln"]:
