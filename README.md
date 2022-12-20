@@ -29,7 +29,18 @@ Now what do we do with this number? This number shows which codename it will use
 2.0 through 2.9 will use Cyber,
 3.0 through 3.9 will use Neo,
 4.0 through 4.9 will use Turtle,
-and 5.0 is the Grandfather Unity which will use Grand (oldest)
+and 5.0 is the Grandfather Unity which will use Grand (oldest.)
 Negative numbers are newer than the latest (2022.1.1f1.)
 
 That's nice! We got a little codename going on!
+
+# Codename Table
+
+| Numbers   |   Codename       |
+|-----------|:----------------:|
+| 0.0 - 0.9 |  Goblin (Newest) |
+| 1.0 - 1.9 |    Rabbit        |
+| 2.0 - 2.9 | Cyber            |
+| 3.0 - 3.9 | Neo              |
+| 4.0 - 4.9 | Turtle           |
+|    5.0    | Grand            |
