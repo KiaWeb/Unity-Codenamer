@@ -1,5 +1,5 @@
 # The Unity Codenamer
-### This is meant for showing Unity versions and names, etc from 2017.1.0f1 to 2022.1.1f1.
+### This is meant for showing Unity versions and names, etc from 2017.1.0f1 to 2022.2.1f1.
 
 # Documentation
 The documentation might not be simple.
@@ -30,7 +30,7 @@ Now what do we do with this number? This number shows which codename it will use
 3.0 through 3.9 will use Neo,
 4.0 through 4.9 will use Turtle,
 and 5.0 is the Grandfather Unity which will use Grand (oldest.)
-Negative numbers are newer than the latest (2022.1.1f1.)
+Negative numbers are newer than the latest (2022.2.1f1.)
 
 That's nice! We got a little codename going on!
 
