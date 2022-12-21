@@ -5,8 +5,8 @@ rabbits = [1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]
 cybers = [2.0,2.1,2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9]
 neos = [3.0,3.1,3.2,3.3,3.4,3.5,3.6,3.7,3.8,3.9]
 turtles = [4.0,4.1,4.2,4.3,4.4,4.5,4.6,4.7,4.8,4.9]
-grand = 5.0
 
+grand = 5.0
 a = "Alpha"
 b = "Beta"
 rc = "Release Candidate"
@@ -22,18 +22,18 @@ na = "N/A"
 editorver = ""
 p = "."
 done = None
-num1 = 2022.11
 num2 = None
 num3 = None
 
 # rabbit cyber neo ultra
 latest = {"editorVer": {
     "major": "2022",
-    "minor": "1",
+    "minor": "2",
     "ln": "1",
     "patch": "f1"
   }}
 
+num1 = float(latest["editorVer"]["major"]+p+json["editorVer"]["minor"]+json["editorVer"]["ln"])
 
 
 if not done:
@@ -46,10 +46,10 @@ if not done:
   num3 = round(num1 - num2,1)
 
 if not done:
-  if num3 < round(num1 - num1):
+  if num3 < round(num1 - num1,1):
     print("Too high version!")
     exit(1)
-  elif num3 > round(num1 - 2017.1):
+  elif num3 > round(num1 - 2017.1,1):
     print("Too low version!")
     exit(1)
 
